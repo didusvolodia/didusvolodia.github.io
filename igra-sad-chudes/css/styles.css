@@ -1,0 +1,1163 @@
+body, span, div, p, h1,
+h2, h3, h4, ul, li, img {
+
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+body img {
+    border: none;
+    outline: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+input, textarea {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #4D89B8;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+body {
+    background: #f88d09;
+    background: -webkit-linear-gradient(left, #f88d09, #f3430c);
+    background: -moz-linear-gradient(left, #f88d09, #f3430c);
+    background: linear-gradient(to right, #f88d09, #f3430c);
+    /*font-family: 'Proxima Nova Cn Rg';*/
+    font-family: 'Proxima Nova Lt';
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    height: 100%;
+
+}
+
+body.ro {
+    font-family: Arial;
+}
+
+/*#content {*/
+/*-webkit-transform: scale(0.8,0.8);*/
+/*-moz-transform: scale(0.8,0.8);*/
+/*-ms-transform: scale(0.8,0.8);*/
+/*-o-transform: scale(0.8,0.8);*/
+/*transform: scale(0.8,0.8);*/
+/*}*/
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    padding-top: 50px;
+}
+
+.roulette_container {
+    overflow: hidden;
+}
+
+.roulette {
+    background: url(../images/in_ruleta.png) no-repeat center center;
+    background-size: contain;
+    width: 276px;
+    height: 276px;
+    position: absolute;
+    top: 11px;
+    /*background: #fff;*/
+    z-index: 1;
+    left: 50%;
+    margin-left: -138px;
+}
+
+.roulette .img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo1 {
+    background: url(../images/logo1_ru.png);
+    width: 268px;
+    height: 77px;
+    margin: 56px auto 0;
+}
+
+.logo1.ro {
+    background: url(../images/logo1_ro.png) center center no-repeat;
+    background-size: contain;
+}
+
+.logo1.ua {
+    background: url(../images/logo1_ua.png) center center no-repeat;
+    background-size: contain;
+}
+
+.logo1.pl {
+    background: url(../images/logo1_pl.png) center center no-repeat;
+    background-size: contain;
+}
+
+.luchi {
+    background: url(../images/luchi.png) top center no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /*top: 10px;*/
+    top: -30%;
+    bottom: 0;
+    opacity: 0.4;
+}
+
+.logo2 {
+    background: url(../images/logo_2_ru.png) center center no-repeat;
+    width: 100%;
+    height: 413px;
+    margin: 35px auto 0;
+}
+
+.wincol {
+    color: #fff;
+    line-height: 38px;
+    font-size: 32px;
+    /*margin-top: 161px;*/
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Proxima Nova Lt';
+}
+
+.wincol .dosixty {
+    color: #f9e27d;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pops {
+    line-height: 28px;
+    font-size: 24px;
+    color: #f9e27d;
+    text-align: center;
+    margin-top: 335px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ps {
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    font-size: 36px;
+    font-family: 'Intro-Cond';
+    margin-top:45px;
+    margin-bottom:-10px;
+}
+.ps span {
+    font-size: 30px;
+}
+
+.podrul {
+    /* background: url(../images/podrul.png) center center no-repeat;*/
+    background: #fff;
+    /*background:#c59c68;*/
+    width: 484px;
+    height: 252px;
+    position: absolute;
+    top: 236px;
+    left: 376px;
+    z-index: 1;
+
+}
+#not_played {
+    position: relative;
+    z-index:10;
+}
+.frukti {
+    background: url(../images/frukti.png) center center no-repeat;
+    width: 637px;
+    height: 536px;
+    /*margin:0 -96px;*/
+    position: absolute;
+     left:-100px;
+
+    z-index: 1;
+    right: -60px;
+    top: 190px;
+}
+
+.frukti.niz {
+    top: 1160px;
+    top: 643px;
+}
+
+.roulette_container {
+    position: relative;
+    height: 300px;
+    /*width: 100%;*/
+
+    width: 100%;
+    /*margin: 0 -118px;*/
+    z-index: 2;
+}
+
+
+.zvezdi {
+    background: url(../images/zvezdi.png) center no-repeat;
+    width: 1178px;
+    height: 509px;
+    position: absolute;
+    top: -6px;
+    left: -89px;
+    right: -89px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.ftext {
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.start {
+    width: 405px;
+    height: 115px;
+    background: url(../images/btn_static.png) no-repeat center center;
+    background-size: contain;
+    outline: none;
+    border: none;
+    font-size: 60px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+
+.start.disabled, .start.disabled:hover, .start.disabled:active {
+    background: url(../images/btn_active.png) no-repeat center center;
+    background-size: contain;
+    /*opacity: 0.5;*/
+}
+
+.start:hover {
+    background: url(../images/btn_hover.png) no-repeat center center;
+    background-size: contain;
+}
+
+.start:active {
+    background: url(../images/btn_active.png) no-repeat center center;
+    background-size: contain;
+}
+
+.start span {
+    left: 0;
+    right: 0;
+    top: 20px;
+    /*line-height: 120px;*/
+    height: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    font-family: Intro-Cond;
+    cursor: pointer;
+    font-size:30px;
+}
+
+.play {
+    /* position: relative;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     height: 220px;*/
+    text-align: center;
+    z-index: 2;
+    margin-top:0px;
+    margin-bottom:10px;
+}
+
+.bezp {
+    margin-top: 40px;
+    font-family: Intro-Cond;
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.bezp2 {
+    font-family: Intro-Cond;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.ro .tx, .ro .bezp2, .ro .bezp {
+    font-family: Arial;
+}
+
+.tx {
+    font-family: Intro-Cond;
+    display: inline-block;
+    /*background: linear-gradient(0deg, #e26f36,  #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #e26f36;*/
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0px 10px 2px rgba(119, 159, 222, 0.3);
+}
+
+.five {
+    display: inline-block;
+    width: 225px;
+    height: 258px;
+    background: url(../images/five.png);
+    margin: 0px -43px -70px;
+}
+
+.six {
+    display: inline-block;
+    width: 369px;
+    height: 258px;
+    background: url(../images/six.png);
+    margin: 0px -43px -70px;
+}
+
+.pozdra {
+    margin-top: -178px;
+    background: url(../images/win_ru.png) center center no-repeat;
+    background-size: contain;
+    width: 681px;
+    height: 223px;
+    margin-left: 63px;
+}
+
+.pozdra.pl {
+    background-image: url(../images/win_pl.png);
+}
+
+.pozdra.ro {
+    background-image: url(../images/win_ro.png);
+}
+
+.pozdra.ua {
+    background-image: url(../images/win_ua.png);
+}
+
+/*.vashv {*/
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+    /*font-size: 32px;*/
+    /*color: #f9e27d;*/
+/*}*/
+
+.prize {
+    text-align: center;
+    font-size: 33px;
+    font-family: Intro-Cond;
+    margin-bottom: 60px;
+    /*color: #e90606;*/
+    /*background: linear-gradient(0deg, #cb5757,  #ffffff);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+    color: #fff;
+}
+
+.prize.pl {
+    font-size: 30px;
+    font-family: Arial;
+}
+
+/*.prize {
+
+    font-size: 50px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    line-height: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    margin: 10px auto 15px;
+    width: 500px;
+}*/
+
+.redc {
+    color: #fff;
+}
+
+.vpromo, .vpromo2 {
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+.vpromo2 {
+    font-size:18px;
+    margin-top:24px;
+    margin-bottom:-12px;
+}
+
+.promo {
+
+    height: 120px;
+    line-height: 130px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin: 20px auto 40px;
+    background: #fff;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+
+
+}
+
+.copy {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
+    /*    font-family: Intro-Cond;*/
+    font-size: 16px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60x;
+    border-radius: 60px;
+    margin: 20px auto 40px;
+    background: #ffffff;
+    text-align: center;
+    margin-left: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.copy:hover {
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
+    background-color: #ccc;
+}
+
+.copy.copied {
+    background-color: #000;
+    color: #fff;
+    cursor: auto;
+}
+
+.nadpromoco {
+    text-align: center;
+}
+
+.shop_url {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background: url(../images/btn_static.png) center center no-repeat;
+    background-size: contain;
+    width: 60%;
+    height: 115px;
+    display: block;
+    font-size: 32px;
+    /*line-height: 115px;*/
+    text-transform: uppercase;
+    font-weight: bold;
+
+    font-family: 'Intro-Cond';
+    position: relative;
+
+}
+
+.shop_url span {
+    left: 0;
+    right: 0;
+    top: 27px;
+    /*line-height: 120px;*/
+    height: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    font-family: Intro-Cond;
+    cursor: pointer;
+    font-size:30px;
+}
+
+.shop_url:hover {
+    background: url(../images/btn_hover.png) center center no-repeat;
+    background-size: contain;
+    text-decoration: none;
+}
+
+.shop_url:active {
+    background: url(../images/btn_active.png) center center no-repeat;
+    background-size: contain;
+    text-decoration: none;
+}
+
+
+/*.otdo {*/
+/*margin-bottom: 40px;*/
+/*text-align: center;*/
+
+/*}*/
+
+.richag {
+    position: absolute;
+    right: 75px;
+    top: 135px;
+    width: 160px;
+    height: 230px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.richag.disabled {
+    display: none;
+}
+
+.vpromo {
+    color: #fff;
+
+    font-size: 18px;
+    margin-top: -3px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.countdown-row {
+    text-align: center;
+}
+
+.countdown-section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8px;
+    position: relative;
+}
+
+.countdown-section + .countdown-section:before {
+    content: ':';
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 24px;
+    /*background: url(../images/sprite.png) -106px -28px no-repeat;*/
+    left: -14px;
+    top: 10px;
+    font-size: 32px;
+}
+
+.countdown-amount {
+    display: block;
+    font-size: 38px;
+    color: #f9e27d;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.countdown-amount .diggit {
+    display: inline-block;
+    width: 35px;
+    height: 50px;
+    /*background: url(../images/sprite.png) 0 0 no-repeat;*/
+    line-height: 50px;
+    text-align: center;
+}
+
+.countdown-amount .diggit + .diggit {
+    margin-left: 4px;
+}
+
+.countdown-period {
+    /*font-size: 13px;*/
+    line-height: 1;
+    margin-top: 0px;
+    /*color: #666;*/
+    font-weight: 400;
+    display: block;
+    max-width: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.countdown {
+    text-align: center;
+    color: #fff;
+}
+
+.countdownt {
+    text-align: center;
+    color: #fff;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 2px;*/
+    font-size:14px;
+    margin-top:20px;
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+        height: 100%;
+    }
+
+    .container {
+        overflow: hidden;
+        width: 100%;
+        /*height: 100%;*/
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+    /*.zvezdi {
+        background: url(../images/zvezdi.png) center center no-repeat;
+        width: 100%;
+        height: 509px;
+        position: absolute;
+        top: -6px;
+        left: 0;
+        right: 0;
+    }
+
+    .frukti {
+        background: url(../images/frukti.png) center center no-repeat;
+        width: 100%;
+        left: 0;
+        right: 0;
+
+    }
+
+    .roulette_container {
+        width: 100%;
+        margin: 0;
+
+    }
+
+
+    .tx {
+        font-size: 50px;
+    }*/
+}
+
+.cart {
+    background: url(../images/cart.png) top center no-repeat;
+    /*width:410px;*/
+    /*height: 109px;*/
+    height: 75px;
+    /*height: 167px;*/
+
+    margin: 14px auto 10px;
+    background-size: 80%;
+
+    position: relative;
+}
+
+.podcart {
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.podcart div {
+    color: #fff;
+    float: left;
+    bottom: 0;
+    /*width: 30%;*/
+    position: relative;
+    width: 175px;
+    position: relative;
+    text-align: center;
+    font-size:13px;
+}
+
+.podcart .txt1 {
+    /*left: 0px;*/
+}
+
+.podcart .txt2 {
+    /*left: 100px;*/
+}
+
+.podcart.pl .txt2 {
+    /*left: 50px;*/
+
+}
+
+.podcart .txt3 {
+    width: 150px;
+}
+
+/*@media screen and (max-width: 1600px) and (min-width: 1000px) {*/
+
+.container {
+    width: 500px;
+}
+
+.zvezdi {
+    -webkit-background-size: contain;
+    background-size: contain;
+    /*width:883*/
+    height: 255px;
+    top: -31px;
+}
+
+.top_zvezda {
+    background: url(../images/top_zvezda.png);
+    width:75px;
+    height:75px;
+    position: absolute;
+    left:0;
+    top:-4px;
+    background-size:contain;
+}
+.logo1 {
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 16px;
+    height: 35px;
+}
+
+.logo2 {
+    -webkit-background-size: contain;
+    background-size: contain;
+    height: 217px;
+    margin: -15px auto 0;
+}
+
+.roulette_container {
+    -webkit-background-size: contain;
+    background-size: contain;
+    /*height: 450px;*/
+    /*height: 500px;*/
+    margin-top: -5px;
+}
+
+.wincol {
+
+    color: #fff;
+    line-height: 28px;
+    font-size: 24px;
+    margin-top: 65px;
+}
+
+.frukti {
+    -webkit-background-size: contain;
+    background-size: contain;
+   /* top: 75px;
+    height: 430px;*/
+}
+
+.frukti.niz {
+    top: 270px;
+}
+
+.nadroulette {
+  left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    position: absolute;
+
+    /*left: 240px;*/
+    background: url(../images/vn_ruleta.png) center center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    z-index:4;
+}
+
+.podrul {
+    width: 57px;
+    height: 91px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -29px;
+    background: url(../images/strela.png) center center no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
+
+.richag {
+    right: 400px;
+    top: 75px;
+    width: 90px;
+    height: 120px;
+}
+
+.pops {
+    margin-top: 170px;
+}
+
+.vashv {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    text-align: center;
+    color:#fff;
+}
+
+
+.pachek {
+    font-size: 62px;
+}
+
+
+.promo {
+    width: 350px;
+    height: 60px;
+
+    line-height: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+
+    font-family: Arial;
+    font-weight: bold;
+
+    /*padding: 0 30px;*/
+    font-size: 30px;
+}
+
+.copy {
+    width: 120px;
+    height: 60px;
+    /*line-height: 60px;*/
+    /*font-size: 25px;*/
+}
+
+.bezp {
+    margin-top: 5px;
+    color: #f9e27d;
+    /*font-family: Intro-Cond;*/
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.bezp2 {
+    /*font-family: Intro-Cond;*/
+    font-size: 25px;
+}
+
+.five, .six {
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.five {
+    width: 110px;
+    margin: 0px -14px -32px;
+}
+
+.six {
+    margin: 0px -15px -32px;
+    width: 170px;
+}
+
+.otdo {
+    margin-bottom: -12px;
+    margin-top: -60px;
+    height: 223px;
+    width: 100%;
+    background: url(../images/otdo_ru.png) center center no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+}
+
+.otdo.pl {
+    background-image: url(../images/otdo_pl.png);
+    margin-bottom: -33px;
+    margin-top: 0px;
+    height: 160px;
+}
+
+.otdo.ro {
+    background-image: url(../images/otdo_ro.png);
+    margin-bottom: -33px;
+    margin-top: 0px;
+    height: 160px;
+}
+.ftext {
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.tx {
+    font-size: 30px;
+}
+
+.heading {
+    background:url(../images/heading_ru.png) no-repeat center center;
+    background-size:contain;
+    width:100%;
+    height:110px;
+    margin-top:-50px;
+}
+.heading.pl {
+    background-image:url(../images/heading_pl.png);
+}
+.heading.ro {
+    background-image:url(../images/heading_ro.png);
+}
+.heading.ua {
+    background-image:url(../images/heading_ua.png);
+}
+/*}*/
+
+
+.rules {
+
+}
+.rtitle {
+    text-align: center;
+    /*text-align:center;*/
+    font-size:14px;
+    /*font-weight: bold;*/
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    margin: 21px 0 -17px 0;
+}
+.star {
+    display: inline-block;
+    background: url(../images/zvezda.png) no-repeat center center;
+    background-size: contain;
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px 0 0 0;
+    float: left;
+    font-family: 'Intro-Cond';
+}
+
+.rule {
+    height: 85px;
+    padding-left: 65px;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.rule + .rule {
+    margin-top: -37px;
+}
+
+.stext {
+    margin-left: -10px;
+    display: inline-block;;
+    line-height: 16px;
+    height: 85px;
+    width: 270px;
+    font-size: 16px;
+    float: left;
+}
+
+.vstext {
+    display: table-cell;
+    vertical-align: middle;
+    height: 85px;
+}
+
+.peizesc {
+    background: url(../images/caption.png) repeat;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    float: left;
+    height: 200px;
+    padding: 15px;
+    margin-left: 10px;
+    width: 236px;
+    font-family: 'Intro-Cond';
+    font-size:12px;
+    color:#fff;
+    position: relative;
+}
+
+.peizesc.ro, .peizesc.pl {
+    font-family: 'Arial';
+}
+
+.peizesc .smz {
+    background: url(../images/smz.png) no-repeat center center;
+    background-size: contain;
+    width:20px;
+    height:20px;
+    top:45px;
+    left:150px;
+    position: absolute;
+}
+
+.peizesc + .peizesc .smz
+{
+    top:30px;
+    left:200px;
+}
+
+.peizesc .ico {
+    height:52px;
+    margin-bottom:10px;
+    padding-left:65px;
+    position: relative;
+    padding-top: 16px;
+}
+
+.peizesc .ico:before {
+    content: '';
+    position: absolute;
+    display:block;
+    background:url(../images/circle.png);
+    width:59px;
+    height:59px;
+    left:0;
+    top:0;
+    background-size: contain;
+    z-index:1;
+}
+
+.peizesc .ico:after {
+    content: '';
+    position: absolute;
+    display:block;
+    width:45px;
+    height:45px;
+    left:7px;
+    top:7px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index:2;
+}
+
+.peizesc .ico.mouse:after { background-image: url(../images/mouse.png);}
+.peizesc .ico.roza:after { background-image: url(../images/roza.png);}
+.peizesc .ico.bird:after { background-image: url(../images/bird.png);}
+.peizesc .ico.vishnya:after { background-image: url(../images/vishnya.png);}
+.peizesc .ico.smile:after { background-image: url(../images/smile.png);}
+.peizesc .ico.malina:after { background-image: url(../images/malina.png);}
+
+
+.peizes {
+    overflow: hidden;
+}
+
+.peizesc + .peizesc {
+    margin: 0 8px 0 10px;
+}
+
+
+.rule_niz {
+
+    background: url(../images/niz_ruleta.png) center center no-repeat;
+    width:233px;
+    height:105px;
+    position: static;
+    bottom:0;
+    background-size:contain;
+ margin:-40px auto -55px;
+    /*466 210*/
+}
+.instr {
+    padding:20px 10px;
+    position: relative;
+    background: url(../images/caption.png);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.instr .smz {
+    background: url(../images/smz.png) no-repeat center center;
+    background-size: contain;
+    width:20px;
+    height:20px;
+    top:25px;
+    left:20px;
+    position: absolute;
+}
+.instr .smz + .smz {
+    right:-10px;
+    top:-10px;
+    left:auto;
+}
+
+.start.ro span,
+.start.pl span {
+    font-size: 20px;
+    font-family: Arial;
+    top: 30px;
+}
+
+.ps.ro,.ps.pl {
+    font-family: Arial;
+}
+
+.shop_url.ro span  {
+    font-size: 15px;
+    font-family: Arial;
+    top: 40px;
+}
+.shop_url.pl span {
+    font-size: 13px;
+    font-family: Arial;
+    top: 35px;
+}
